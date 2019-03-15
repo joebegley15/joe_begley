@@ -1,0 +1,19 @@
+{
+  "name": "joe_begs_comedy",
+  "version": "1.0.0",
+  "description": "Comedy dates, videos, etc for comedian Joe Begley",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Begley",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19"
+  }
+}
